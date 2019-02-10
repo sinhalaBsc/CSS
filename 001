@@ -1,4 +1,7 @@
 
+firefox test your website in different size and mobile devices
+ctrl+shift+m
+
 <button class="navbar-toggler open-navbar-toggler">
 
 if there more than one class on one tag then you need to define those classes
@@ -7,3 +10,43 @@ eg-
 .navbar-toggler.open-navbar-toggler  {
   transform: translateY(-3px);
 }
+
+
+*
+font-weight:300;
+
+*
+box-sixing:boder-box; // will remove left-right paddin
+
+*
+height:inherit;
+
+*
+text-transform:uppercase;
+
+*
+letter-spacing:2px;
+
+*
+vertical-align:middle;
+
+* selector
+[class^=col-]{
+float:left;
+}
+
+*
+footer::after{
+ content:'';
+ display:block;
+ clear:both;
+}
+
+*
+transition:all ease-in-out 250ms;
+
+*
+background-size:cover;
+
+* 
+transform:translatex(-50%);
