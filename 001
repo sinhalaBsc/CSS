@@ -1,0 +1,9 @@
+
+<button class="navbar-toggler open-navbar-toggler">
+
+if there more than one class on one tag then you need to define those classes
+without space in css code 
+eg-
+.navbar-toggler.open-navbar-toggler  {
+  transform: translateY(-3px);
+}
