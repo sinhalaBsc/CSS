@@ -50,3 +50,14 @@ background-size:cover;
 
 * 
 transform:translatex(-50%);
+
+
+* දෙවරක් center කිරීම  
+  >>top: 50%;
+  >>left: 50%;
+  >>transform: translate(-50%,-50%);
+element center වන්නේ එහි වම් පස උඩ කෙලෙවරට සාපේක්ෂවය. එමනිසා 
+එම element එක මුහුණතේ හරි මැදට ගැනීමට නැවතත් center කිරීමට සිදුවේ. 
+  
+
+
