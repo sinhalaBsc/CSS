@@ -1,0 +1,15 @@
+# px පරිමාණය.
+browser වල ස්වභාවයෙන්ම පවතින  font size 16px වේ.
+front-end  css style වල බහුලවම භාවිතා කරනුයේ  px පරිමාණයන්ය.
+
+# ප්‍රතිශත පරිමාණය.
+ප්‍රතිශත පරිමාණය රදාපවතින්නේ parent-tag එකෙ පරිමාණයට සාපේක්ෂවය.
+උදා :
+<p>Lorem <span>Lorem<span></span></span></p>
+
+p{ font-size :100%}
+ස්වභාවයෙන්ම පවතින  font size 16px නිසා 100% පරිමාණය  font size 16px ට සම වේ. (1 වැනි >Lorem)
+p>span{font-size :50%}
+parent-tag එකෙ පරිමාණයෙන් 50% = 8px (2 වැනි >Lorem)
+p>span>span{font-size :200%}
+parent-tag එකෙ පරිමාණයෙන් 200% = 16px (3 වැනි >Lorem)
